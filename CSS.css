@@ -1,0 +1,16 @@
+<style>
+marquee {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 90px;
+  font-family: Arial, Sans-Serif;
+  scroll-behavior: smooth;
+  animation: marquee 10s infinite linear;
+  
+}
+@keyframes marquee { 0% { transform: translateX(200%); }
+200% {
+  transform: translatex(-100%);
+}
+}
+</style>
